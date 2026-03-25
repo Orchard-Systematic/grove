@@ -1,4 +1,5 @@
 #include <gtest/gtest.h>
+#include <cmath>
 #include "grove/pricing/cost_of_carry.h"
 
 using namespace grove::pricing;

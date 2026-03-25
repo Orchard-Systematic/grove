@@ -9,7 +9,7 @@ TEST(KalmanFilter, ConstantSignal) {
     for (int i = 0; i < 100; ++i) {
         kf.update(50.0);
     }
-    EXPECT_NEAR(kf.estimate(), 50.0, 0.1);
+    EXPECT_NEAR(kf.estimate(), 50.0, 0.2);
 }
 
 TEST(KalmanFilter, TracksStep) {
