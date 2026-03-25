@@ -8,3 +8,8 @@ compile_commands.json
 *.a
 .vscode/
 .idea/
+
+# Secrets
+.env
+.env.local
+.env.*.local
